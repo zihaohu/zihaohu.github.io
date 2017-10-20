@@ -17,7 +17,8 @@ html {
 }
 
 body { 
-  font-family: Georgia, serif;
+/*  font-family: Georgia, serif;*/
+  font-family: Helvetica, serif;
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
