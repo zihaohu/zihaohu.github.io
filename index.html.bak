@@ -56,21 +56,20 @@ Machine Learning and Probabilistic Inference.<br>
 <h2>Publications</h2>
 <ul>
 	<li>
-		<a href="https://arxiv.org/abs/1712.00573">Supervised Hashing based on Energy Minimization,<br>
+		Supervised Hashing based on Energy Minimization,<br>
 		<b>Zihao Hu</b>, Xiyi Luo, Hongtao Lu.<br>
-		<em>IEEE Conference on Computer Vision and Pattern Recognition</em> (<b>CVPR</b> 2018, submitted) <br>
+		<em>Association for the Advancement of Artificial Intelligence</em> (<b>AAAI</b> 2018, submitted) <br>
 		<p style="margin-top:3px">
-			[<a href="./papers/CVPR2018.pdf">Paper</a>]
-			<!--[<a href="./notes/consistencyequations.pdf">Paper</a>] -->
+			[<a href="./notes/consistencyequations.pdf">Research Note</a>]
 			<!-- [<a href="http://bcmi.sjtu.edu.cn/~zihaohu/notes/consistencyequations.pdf">Research Note</a>] -->
 		</p>
 	</li>
 	<li>
-		<a href="http://ieeexplore.ieee.org/document/8099833">Bayesian Supervised Hashing,<br></a>
+		<a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Bayesian_Supervised_Hashing_CVPR_2017_paper.pdf">Bayesian Supervised Hashing,<br></a>
 		<b>Zihao Hu</b>, Junxuan Chen, Hongtao Lu, Tongzhen Zhang.<br>
 		<em>IEEE Conference on Computer Vision and Pattern Recognition</em> (<b>CVPR</b> 2017, <b>spotlight, 8%</b>) <br>
 		<p style="margin-top:3px">
-			[<a href="./papers/CVPR2017.pdf">Paper</a>]
+			[<a href="./papers/cvpr2017.pdf">Paper</a>]
 			<!-- [<a href="http://bcmi.sjtu.edu.cn/~zihaohu/papers/cvpr2017.pdf">Paper</a>] -->
 		</p>
 	</li>
@@ -79,7 +78,7 @@ Machine Learning and Probabilistic Inference.<br>
 		Wei Shen, Xiang Bai, <b>Zihao Hu</b>, Zhijiang Zhang.<br>
 		<em>Pattern Recognition</em> (<b>PR</b> 2016) <br>
 		<p style="margin-top:3px">
-			[<a href="./papers/PR2016.pdf">Paper</a>]
+			[<a href="http://www.sciencedirect.com/science/article/pii/S0031320315003945">Paper</a>]
 		</p>
 	</li>
 	
