@@ -1,0 +1,280 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+% \usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\setlength{\footskip}{3.60004pt}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[bottom=2.6cm,top=2.6cm,left=2.cm,right=2.cm]{geometry}
+% Adjust margins
+% \addtolength{\oddsidemargin}{-0.375in}
+% \addtolength{\evensidemargin}{-0.375in}
+% \addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{0in}
+% \addtolength{\textheight}{1in}
+% \addtolength{\oddsidemargin}{-0.375in}
+% \addtolength{\evensidemargin}{-0.375in}
+% \addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{0in}
+% \addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Zihao Hu}} & Email : \href{mailto:zihaohu@ust.hk}{zihaohu@ust.hk}\\
+  \href{https://zihaohu9.github.io/zihaohu.github.io/}{Homepage: https://zihaohu9.github.io/zihaohu.github.io/} & Mobile : +852-59314071 \\
+%   \href{https://github.com/shubhi28}{Github: https://github.com/shubhi28} \\
+\end{tabular*}
+
+\section{Research Focus}
+{Operations Research, Machine Learning Theory, Online Decision Making, Riemannian Optimization}
+% {Machine Learning Theory, Convex Optimization}
+\section{Academic Positions}
+\resumeSubHeadingListStart
+    \resumeSubheading{Hong Kong University of Science and Technology
+}{Hong Kong SAR, China}{Research Assistant Professor, Department of Mathematics}{Jul. 2024 - Present}
+\resumeSubheading{Hong Kong University of Science and Technology
+}{Hong Kong SAR, China}{Postdoctoral Researcher, Department of Mathematics; Host: Yuan Yao and Jiheng Zhang}{Apr. 2024 - Jun. 2024}
+ % \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, USA}
+      {Ph.D.  in Machine Learning; Advisor: Jacob Abernethy}{Aug. 2018 - Dec. 2023}
+      
+	   % {\scriptsize \textit{Courses: Math Foundations of ML, Machine Learning Theory, Theoretical Statistics, Nonlinear Optimization, Graphical Models in ML.}}
+	    
+    \resumeSubheading
+      {Shanghai Jiao Tong University}{Shanghai, China}
+      {M.S. in Computer Science; Advisor: Hongtao Lu;  GPA: 3.89/4.00, Rank: 3/115}{Mar. 2018}
+      
+    \resumeSubheading
+      {Huazhong University of Science and Technology}{Wuhan, China}
+      {BSEE in Telecommunications; GPA: 84.55/100}{June 2015}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+
+% \item Prof.\noindent\  Xiuwei Zhang
+% \begin{itemize}
+% \item Assistant Professor of Computational Science and Engineering,   Georgia Institute of Technology  
+% \item Email: xzhang954@gatech.edu
+% \item Interfolio email: send.Zhang.8B2BC1EFDE@interfolio.com 
+% \item Homepage: \url{https://xiuweizhang.wordpress.com/}
+% \end{itemize}
+
+
+\section{Publications}
+\begin{description}[font=$\bullet$]
+    \item Yanjun Han, Zhengqing Zhou, {\textbf{Zihao Hu}}, Jose Blanchet, Peter W. Glynn, Yinyu Ye, Zhengyuan Zhou. \href{https://arxiv.org/abs/2004.06321}{Sequential Batch Learning in Finite-Action Linear Contextual Bandits}. Operations Research, to appear.
+    \item {\textbf{Zihao Hu}}, Xiaoyu Fan, Yuan Yao, Jiheng Zhang, Zhengyuan Zhou. \href{https://arxiv.org/abs/2501.13358}{Learning to Bid in Non-Stationary Repeated First-Price Auctions}. Operations Research, Minor Revision.
+    \item Guanghui Wang, {\textbf{Zihao Hu}}, Claudio Gentile, Vidya Muthukumar, Jacob Abernethy. Faster Margin Maximization Rates for Generic and Adversarially Robust Optimization Methods. Mathematical Programming 2025, Series B.
+    \item {\textbf{Zihao Hu}}, Guanghui Wang, Xi Wang, Andre Wibisono, Jacob Abernethy, Molei Tao. \href{http://arxiv.org/abs/2309.14155}{Extragradient Type Methods for Riemannian Variational Inequality Problems}. \href{http://arxiv.org/abs/2309.14155}{arXiv: 2309.14155.} Accepted by International Conference on Artificial Intelligence and Statistics (AISTATS) 2024.
+    \item {\textbf{Zihao Hu}, Guanghui Wang, Jacob Abernethy. \href{https://openreview.net/pdf?id=szFqlNRxeS}{On Riemannian Projection-free Online Learning}.  }  Conference on Neural Information Processing Systems (NeurIPS) 2023.
+    
+    % Submitted to NeurIPS 2023; evaluation scores: 5,7,7,7,8.
+    \item {Guanghui Wang, \textbf{Zihao Hu}, Vidya Muthukumar, Jacob Abernethy. \href{https://openreview.net/pdf?id=vTug54Uunq}{Faster Margin Maximization Rates for Generic Optimization Methods}.}  Conference on Neural Information Processing Systems (NeurIPS) 2023. (Spotlight)
+    
+    % Submitted to NeurIPS 2023; evaluation scores: 6,6,7,7,8.
+    % https://arxiv.org/abs/2305.17544
+    \item {\textbf{Zihao Hu}, Guanghui Wang, Jacob Abernethy. \href{https://proceedings.mlr.press/v195/hu23a/hu23a.pdf}{Minimizing Dynamic Regret on Geodesic Metric Spaces}.  Annual Conference on Learning Theory (COLT) 2023.}
+    
+    % \href{https://arxiv.org/abs/2302.08652}{arXiv: 2302.08652.}}
+    % https://arxiv.org/abs/2302.08652
+    \item {Guanghui Wang, \textbf{Zihao Hu}, Vidya Muthukumar, Jacob Abernethy. \href{https://papers.nips.cc/paper_files/paper/2022/hash/948106cb5a114684a64c89a1e517e3fe-Abstract-Conference.html}{Adaptive Oracle-Efficient Online Learning}. Conference on Neural Information Processing Systems (NeurIPS) 2022.}
+    \item {\textbf{Zihao Hu}, Junxuan Chen, Hongtao Lu, Tongzhen Zhang. \href{http://ieeexplore.ieee.org/document/8099833}{Bayesian Supervised Hashing}. Conference on Computer Vision and Pattern Recognition (CVPR) 2017. (Spotlight, 8\%)}
+    \item {Wei Shen, Xiang Bai, \textbf{Zihao Hu}, Zhijiang Zhang. \href{http://www.sciencedirect.com/science/article/pii/S0031320315003945}{Multiple Instance Subspace Learning via Partial Random Projection Tree for Local Reflection Symmetry in Natural Images}. Pattern Recognition (PR) 2016.} 
+    \end{description}
+
+\section{Preprints}
+\begin{description}[font=$\bullet$]
+    \item \textbf{Zihao Hu}, Yuan Yao, Jiheng Zhang, Zhengyuan Zhou. \href{https://arxiv.org/abs/2607.02891}{Dynamic Regret for Non-Stationary Linear Bandits via Misspecification Reductions}. arXiv:2607.02891, 2026.
+    \item \textbf{Zihao Hu}, Yuxiao Wen, Yuan Yao, Jiheng Zhang, Zhengyuan Zhou. \href{https://arxiv.org/abs/2605.09448}{Learning to Bid with Unknown Private Values in Budget-Constrained First-Price Auctions}. arXiv:2605.09448, 2026.
+\end{description}
+
+\section{Research Grants}
+	\resumeSubHeadingListStart
+	%\resumeSubItem{Reviewer}{Conference on Learning Theory, Algorithmic Learning Theory, AISTATS}
+    \resumeSubItem{Principal Investigator}{Adaptive Learning for Online Ad Display in Non-stationary Environments. HKD 828,792. Hong Kong
+Research Grants Council, General Research Fund. Project No. 16506225, Oct. 2025--Sep. 2028.}
+	% \resumeSubItem{Tools}{Linux, Git, Mathematica, Matlab}
+\resumeSubHeadingListEnd
+
+
+% %-----------EXPERIENCE-----------------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%     {Georgia Institute of Technology}{Atlanta, GA}
+%     {Research Assistant}{Aug. 2018 -  Present}
+%     \resumeItemListStart
+%     \resumeItem{Extragradient Type Methods for Riemannian Variational Inequality Problems}{}    
+%     \begin{description}[font=$\bullet$]
+%     \item Developed and introduced Riemannian extragradient and Riemannian past extragradient as novel first-order approaches to Riemannian variational inequality problems.
+%     \item Secured an unprecedented $O\left(\frac{1}{\sqrt{T}}\right)$ last-iterate convergence rate for Riemannian extragradient-type methods.
+%     \item Effectively addressed geometric distortion by meticulously controlling the holonomy effect, subsequently simplifying the issue to its Euclidean counterpart.
+%     \end{description}
+%     \resumeItem{Projection-free Online Learning on Riemannian Manifolds}{}
+%     \begin{description}[font=$\bullet$]
+%     \item {Conducted groundbreaking research on projection-free online learning on Riemannian manifolds, replacing metric projection with a linear optimization oracle or a separation oracle.}
+    
+%     \item {Successfully matched state-of-the-art results in Euclidean space, demonstrating the robustness and effectiveness of the new methodology.}
+%     \end{description}
+%         \resumeItem{Optimistic Online Learning on Riemannian Manifolds}{}
+%     \begin{description}[font=$\bullet$]
+%     \item {Extended the Optimistic Mirror Descent algorithm to Riemannian manifolds in the online improper learning setting  through novel analysis.}
+%     \item {Considered the aggregation of experts' advice on manifolds and devised novel algorithms with adaptive and dynamic regret guarantees.}
+%     \item {Achieved regret bounds that align with their counterparts in Euclidean space, validating the effectiveness of the newly developed algorithms.}
+%     \end{description}
+%         \resumeItem{Adaptive Oracle-Efficient Online Learning}{}
+%         \begin{description}[font=$\bullet$]
+%     \item {Concentrated on enhancing oracle-efficient online learning, which utilizes an offline oracle to expedite computation.}
+%     \item {Applied Follow the Perturbed Leader with correlated noise and established a novel condition to attain the first-order bound.}
+%     \item {Demonstrated the applicability of the condition for various online auction problems, including VCG auction with reserves, envy-free $k$-item pricing, and level auctions.}
+%     \end{description}
+%     \resumeItemListEnd
+%     \resumeSubheading{Shanghai Jiao Tong University}{Shanghai, China}
+%     {Master Student}{Sept. 2015 -  Mar. 2018}
+%     \resumeItemListStart
+%     \resumeItem{Bayesian Supervised Hashing for Hyperparameter Tuning}{}
+%         \begin{description}[font=$\bullet$]
+%         \item {Introduced the first Bayesian inference approach for automatic hyperparameter tuning in learning binary hashing codes, significantly reducing the dependency on manual tuning prevalent in prior methods.}
+%         \item {Employed Automatic Relevance Determination (ARD) prior to discern the relative importance of different hashing bits, enhancing model performance.}
+
+%     \end{description}
+    
+%     \resumeItem{Two Sigma Financial Modeling Challenge}{}
+%         \begin{description}[font=$\bullet$]
+%        \item  {Developed a predictive model for a target variable associated with near-future fluctuations suggested by the VIX index, leveraging anonymized features derived from financial instruments.}
+        
+%     \item {Merged linear regression and genetic programming models with extremely randomized trees, fostering an effective and reliable predictive model.}
+
+%     \item {Achieved a ranking in the top 7.15\% (148 out of 2070 participants) in the final evaluation, underscoring the model's accuracy and effectiveness.}
+%     \end{description}
+    
+%     \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+
+
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {National Scholarship 2017, Shanghai Jiao Tong University, Shanghai, China (Top 2.6\%, 3/115)}{}
+% Selected in top 20 students for the Code House event organized by VMware in August15 - August17, 2016.} 
+\item {Two Sigma Financial Modeling Challenge 2017, Kaggle (Top 7.15\%, 148/2070)}
+\item {First Prize in China Post-Graduate Mathematical Contest in Modeling 2016 (Top 1.69\%, 150/8872)}
+\end{description}
+%-------------------------------------------
+% \section{Academic Service}
+% \begin{description}[font=$\bullet$]
+%     \item TIT, ALT, AISTATS
+% \end{description}
+\section{Academic Service}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Journal Reviewer}{Mathematics of Operations Research (MOR); IEEE Transactions on Automatic Control (TAC)}
+	\resumeSubItem{Conference Reviewer}{NeurIPS, ICML, Conference on Learning Theory (COLT), Algorithmic Learning Theory (ALT), AISTATS}
+	% \resumeSubItem{Tools}{Linux, Git, Mathematica, Matlab}
+\resumeSubHeadingListEnd
+
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{C, C++, Python, Shell Script}
+	\resumeSubItem{Tools}{Linux, Git, Mathematica, Matlab}
+\resumeSubHeadingListEnd
+% \section{Referees}
+% \section{References}
+% \begin{description}[font=$\bullet$]
+% \item Prof. Jacob Abernethy (Ph.D. Advisor) 
+% \begin{description}[font=$\circ$]
+%  \item  Associate Professor in School of Computer Science, Georgia Institute of Technology
+%  \item Email: \href{mailto:prof@gatech.edu}{prof@gatech.edu}
+%  \item Homepage: \href{https://faculty.cc.gatech.edu/~jabernethy9/}{\url{https://faculty.cc.gatech.edu/~ jabernethy9/}}
+% \end{description}
+% \item Prof. Molei Tao
+% \begin{description}[font=$\circ$]
+%  \item  Associate Professor in School of Mathematics, Georgia Institute of Technology
+%  \item Email: \href{mailto:mtao@gatech.edu}{mtao@gatech.edu}
+%  \item Homepage: \href{https://mtao8.math.gatech.edu/}{\url{https://mtao8.math.gatech.edu/}}
+% \end{description}
+% \item Prof. Andre Wibisono
+% \begin{description}[font=$\circ$]
+%  \item  Assistant Professor in Department of Computer Science, Yale University
+%  \item Email: \href{mailto:andre.wibisono@yale.edu}{andre.wibisono@yale.edu}
+%  \item Homepage: \href{http://www.cs.yale.edu/homes/wibisono/}{\url{http://www.cs.yale.edu/homes/wibisono/}}
+% \end{description}
+% \end{description}
+
+
+\end{document}
